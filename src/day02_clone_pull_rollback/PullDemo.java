@@ -8,9 +8,9 @@ public class PullDemo {
         
         System.out.println("Hello from AnotherTeammate in Github");
 
-        sout.out.print("Hello again From another Teammate in  Github at line 11");
+        System.out.print("Hello again From another Teammate in  Github at line 11");
 
-        sout.out.print("Hello again From another Teammate in  Github at line 13");
+        System.out.print("Hello again From another Teammate in  Github at line 13");
 
 
     }

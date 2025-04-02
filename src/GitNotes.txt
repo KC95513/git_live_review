@@ -1,0 +1,68 @@
+1) Goto Github and open PullDemo.java
+2) Edit and add new line:
+	System.out.println("Hello From Another teammate in GitHub");
+3) Commit changes in GitHub
+4) In IntelliJ - git -> pull.. ->Pull changes to your local repo
+-----------
+1) In local IntelliJ, we type changes to PullDemo but do not commit
+2) Goto GitHub - Make change in PullDemo in GitHub and commit in GitHub
+3) In Intellij, Try to pull the changes and see the message
+
+
+Error message: Cannot merge, rollback, commit, stash
+
+1) We rolled back the changes
+2) Merge changes from origin/master
+
+pull -> fetch+merge
+
+-----------
+
+Git Conflict:
+1) In local IntelliJ, we type changes to PullDemo - line 13 and COMMIT
+2) Goto GitHub - Make change in PullDemo - line 13 in GitHub and commit in GitHub
+3) In Intellij, Try to pull the changes and see the result
+4) Resolve git conflict and commit+push
+
+-----------
+
+Ctrl+Command+shift+4 -> select area
+
+How to clone a repository from github
+
+1) Goto Github Repository and copy URL
+2) In Intellij -> File - new from version control
+3) Paste the URL and click clone
+4) Project will open in new window, trust it if it asks
+
+-----------
+
+Delete project:
+
+1) Right click on project name
+2) Open in -> Finder/Explorer
+3) Delete the project
+
+-----------
+
+Branching in git:
+
+Creating a new branch:
+	1) Make sure your code is all commited
+	2) Make sure master branch is up to date
+	3) Right click on master and create a new branch "US123-my-branch"
+	4) Added 2 commits to US123-my-branch
+	5) Switch to master and pull it
+	6) If there are new commits in master, then merge them to your branch
+		-> If there are MERGE CONFLICTS, Solve them and COMMIT the fix
+	7) Push US123-my-branch to github
+	8) Click on Compare and Pull Request
+	9) Add comments, and tag team member for review
+	10) They reviewed and Approved
+	11) One small fix was requested so we updated the code and pushed the commit
+	12) Everyone approved the PR
+	13) Merged US123-my-branch to master
+	14) Now everyone must PULL/UPDATE their LOCAL master
+
+You start working on US-125-Stocks in Jira.
+Go and follow each step above.
